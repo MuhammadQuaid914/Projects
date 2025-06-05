@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(233, 222, 222);
+}
+.header ul{
+    display: flex;
+    list-style: none;
+}
+.header li{
+    padding: 20px 50px;
+    color: rgb(69, 67, 67);
+}
+.header img{
+    width: 78px;
+height: 84px;
+padding: 6px 2px;
+
+}
+.header button{
+border-radius: 9px;
+padding: 20px 40px;
+border: none;
+background: #5B9FD8;
+color: aliceblue;
+font-family: Poppins;
+font-size: 18px;
+line-height: 17.05px;
+letter-spacing: 0%;
+vertical-align: middle;
+}
+.hotal img{
+    width: 98.9vw;
+    height: 80vh;
+}
+#serena{
+    text-align: center;
+    margin: 50px 20px;
+}
+.ramada{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+}
+.serena_hotal{
+    margin: 10px 20px;
+    background-color: rgb(247, 243, 243);
+}
+.ramada div{
+    width: 408px;
+height: 628px;
+border-radius: 9.6px;
+margin: 20px 20px;
+background-color: rgb(255, 255, 255);
+}
+.ramada img{
+   width: 408px;
+height: 423px;
+margin-bottom: 25px;
+}
+.ramada p{
+margin: 20px 5px;
+color: rgb(148, 144, 144);
+}
+div h2 i{
+    background-color: #5B9FD8;
+    color: #ffffff;
+    padding: 15px 15px;
+    margin-left: 8px;
+    border-radius: 100px;
+}
+.btn{
+padding: 1rem 7rem;
+border-radius: 4.8px;
+cursor: pointer;
+color: #5B9FD8;
+font-size: 18px;
+border: 1.63px solid #5B9FD8
+}
+.btn:active{
+    background-color: #3a6b92;
+    transition: 1s;
+    font-size: 20px;
+    color: aliceblue;
+}
+.btn1{
+    padding: 1.5rem 5rem;
+    border: 1.63px solid #5B9FD8;
+    border-radius: 4.8px;
+cursor: pointer;
+color: #5B9FD8;
+font-size: 18px;
+
+}
+footer{
+    width: 98.9vw;
+height: 298px;
+top: 1743px;
+background: #00162F;
+}
+footer p{
+   padding-top: 10px;
+    text-align: center;
+    color: #bdb2b2;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    color: #bdb2b2;
+    padding: 30px;
+}
+.footer img{
+    width: 100px;
+    padding-top: 10px;
+
+}
+.footer p{
+   padding-bottom: 10px;
+
+}
+.footer b{
+    color: #FFFFFF;
+}
+.copy{
+    border: 1px solid white;
+    padding: 14px;
+}
+

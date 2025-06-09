@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    list-style-type: none;
+
+}
+.header{
+    display: flex;
+    text-align: center;
+    text-align: center;
+    justify-content: space-around;
+}
+.header ul{
+    display: flex;
+}
+.header li{
+    padding: 40px 45px;
+}
+.header button{
+    padding: 25px 60px;
+    margin-top: 20px;
+    border: none;
+    color: aliceblue;
+    background-color: rgb(96, 96, 197);
+}
+.header img{
+    width: 90px;
+    height: 94px;
+    padding-top: 10px;
+}
+.hero_section img{
+    width: 98.9vw;
+    height: 85vh;
+}
+#market_section{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.market{
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+}
+i{
+    margin-left: 20px;
+}
+.market div{
+    width: 408px;
+height: 318px;
+top: 824px;
+left: 983.87px;
+gap: 21.59px;
+margin: 10px;
+background: #FFFFFF;
+
+}
+.market img{
+   width: 408px;
+height: 270px;
+
+}
+
+footer{
+    width: 98.9vw;
+height: 298px;
+top: 1743px;
+background: #00162F;
+}
+footer p{
+   padding-top: 10px;
+    text-align: center;
+    color: #bdb2b2;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    color: #bdb2b2;
+    padding: 30px;
+}
+.footer img{
+    width: 100px;
+    padding-top: 10px;
+}
+.footer p{
+   padding-bottom: 10px;
+
+}
+.footer b{
+    color: #FFFFFF;
+}
+.copy{
+    border: 1px solid white;
+    padding: 14px;
+}
+

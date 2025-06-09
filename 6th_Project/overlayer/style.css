@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+section{
+    width: 98vw;
+    height: 150vh;
+    background: url(../images/jj.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.overlayer{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 98vw;
+    height: 150vh;
+    background: rgba(177, 170, 170, 0.759);
+}
+.overlayer div{
+    width: 400px;
+    height: 600px;
+    justify-content: center;
+    text-align: left;
+    background: #FFFFFF;
+    margin-left: 40vw;
+    border-radius: 10px;
+    margin-top: 80px;
+
+}
+.overlayer div img{
+    width: 400px;
+    height: 300px;
+}
+.overlayer div h2{
+   padding: 8px;
+}
+.overlayer div p{
+    padding: 5px;
+    font-family: sans-serif;
+}
+.overlayer p i{
+    margin-right: 9px;
+}

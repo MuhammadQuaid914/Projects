@@ -1,0 +1,85 @@
+body{
+    /* margin: 0; */
+    padding: 0;
+}
+section{
+    width: 98vw;
+    height: 150vh;
+    background: url(./images/dog-5723355_960_720.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+.police{
+    width: 98.9vw;
+    height: 150vh;
+    position: absolute;
+    left: 0;
+    row-gap: 0;
+    background-color: rgba(138, 135, 135, 0.8);
+}
+.form_box{
+    width: 550px;
+    height: 800px;
+    margin-left: 24rem;
+    padding-top: 30px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    background-color: aliceblue;
+}
+.form_box i{
+    margin: 15px;
+    font-size: 50px;
+}
+.form_box p,h3{
+    align-items: center;
+    text-align: center;
+}
+form{
+ width: 340px;
+border-radius: 20px;
+padding: 18px 50px;
+margin-left: 3.5rem;
+background: #d3d0d0;
+}
+form input{
+padding: 1rem 0.5rem;
+padding-left: 2px;
+border-radius: 0.5rem;
+border: 0.5px solid gray;
+box-sizing: 0.1px 0.1px 1px 1px rgb(146, 7, 7);
+
+}
+form .increase{
+    margin: 15px 10px;
+
+}
+.increase input{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 2px;
+    padding-right: 159px;
+}
+form .usesrname{
+    display: flex;
+}
+.usesrname label{
+    margin: 2px 3px;
+}
+form .Complain{
+text-align: center;
+color: rgb(31, 29, 29);
+}
+form p{
+    color: rgb(100, 95, 95);
+    margin: 2rem;
+}
+form button{
+    padding: 1rem 9rem;
+    margin-top: 16px;
+    background-color: rgb(75, 75, 194);
+    border: none;
+    border-radius: 0.5rem;
+    color: antiquewhite;
+}
